@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  res.send("<h1>Hola " + req.body.name + " !</h1>");
+  res.send("<h1>Hola " + req.body.name + "!</h1>");
 });
 
 app.listen(3000, () => {
